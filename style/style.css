@@ -1,0 +1,138 @@
+html{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #7688A7;
+}
+
+.header{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 60px;
+    width: 100vw;
+    margin-top: 0;
+    background-color: #5A6A86;
+    color: white;
+    position: fixed;
+
+}
+#header-item{
+    cursor: pointer;
+    margin-right: 80px;
+    transition: all 0.6s ease-in-out;
+}
+#header-item:hover{
+    font-size: 30px;
+    color: #FFCB52;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+    font-family: sans-serif;
+    color: #FBFBFB;
+}
+
+.intro-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.intro-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#greeting,#short-info{
+    margin: 5px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#myName{
+    margin: 0;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#coding-img{
+    height: 420px;
+    transition: all 0.7s ease-in-out;
+}
+/* #coding-img:hover{
+    height: 450px;
+} */
+
+.headings{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#intro-img{
+    height: 330px;
+    border-radius: 200px;
+}
+.about-me{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 80px;
+    width: 50vw;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#skill-img{
+    height: 120px;
+    margin-right: 60px;
+}
+
+#link{
+    text-decoration: none;
+    color: white;
+}
+.projects{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#jspr{
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #DFB25E;
+    width: 350px;
+    transition: all 0.7s ease-in-out;
+}
+#jspr:hover{
+    cursor: pointer;
+    width: 380px;
+    box-shadow: 1px 1px 60px #DFB25E;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #5A6A86;
+    color: white;
+    text-align: center;
+}
