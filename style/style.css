@@ -137,11 +137,11 @@ body{
 .gap-bw{
     margin-left: 40px;
 }
-#linkedin-img, #github-img {
+#linkedin-img, #github-img, #email-img {
     height: 70px;
     transition: all 0.5s ease-in-out;
 }
-#linkedin-img:hover, #github-img:hover{
+#linkedin-img:hover, #github-img:hover, #email-img:hover{
     height: 80px;
     cursor: pointer;
 }
