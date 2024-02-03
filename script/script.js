@@ -23,9 +23,16 @@ githubImage.addEventListener('click', () => {
     window.open(githubUrl, "_blank")
 })
 
+// Mail to me
+const emailImage = document.querySelector("#email-img")
+const emailAddress = "mailto:sameerwebdev@outlook.com"
+
+emailImage.addEventListener('click', () => {
+    window.open(emailAddress, "_top")
+})
+
 
 // Navigation Bar
-
 const jump = function () {
     const navLinks = document.querySelectorAll('#header-item');
     console.log(navLinks);
