@@ -8,13 +8,13 @@
 </head>
 <body>
     <nav>
-        <ul class="header">
-            <li id="header-item">Home</li>
-            <li id="header-item">About</li>
-            <li id="header-item">Skills</li>
-            <li id="header-item">Projects</li>
-            <li id="header-item">Contact</li>
-        </ul>
+        <div class="header">
+            <a href=".intro-cont" id="header-item">Home</a>
+            <a href=".about" id="header-item">About</a>
+            <a href=".skills" id="header-item">Skills</a>
+            <a href=".projects" id="header-item">Projects</a>
+            <a href=".contact" id="header-item">Contact</a>
+        </div>
     </nav>
     
     <main class="main-content">
@@ -52,9 +52,11 @@
         <div class="headings">Skills</div>
         <div class="skills">
             <div>
-                <img id="skill-img" src="media\html.png" alt="html">
-                <img id="skill-img" src="media\css.png" alt="css">
-                <img id="skill-img" src="media\javascript.png" alt="javascript">
+                <img src="media\html.png" alt="html" id="skill-img" title="HTML">
+                <img src="media\css.png" alt="css" id="skill-img" title="CSS">
+                <img src="media\javascript.png" alt="javascript" id="skill-img" title="JavaScript">
+                <img src="media\python.png" alt="python" id="skill-img" title="Python">
+                <img src="media\gitbash.png" alt="git" id="skill-img" title="GitBash"> 
             </div>
         </div>
 
@@ -64,8 +66,17 @@
                 <img id="jspr" src="media\jsprojects.png" alt="JavaScript Projects">
             </div>
         </div>
+
+        <div class="headings">Contact</div>
+        <div class="contact">
+            <img id="linkedin-img" src="../media/linkedin.png" alt="LinkedIn" title="LinkedIn">
+            <span class="gap-bw"></span>
+            <img id="github-img" src="../media/github.png" alt="GitHub" title="GitHub">
+        </div>
+
     </main>
     
+    <div class="space"></div>
     <footer class="footer">
        <p>&copy; 2024 Sameer Saharan</p>
     </footer>
