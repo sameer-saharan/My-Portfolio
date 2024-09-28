@@ -99,16 +99,6 @@ body{
     width: 50vw;
 }
 
-.skills{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-#skill-img{
-    height: 120px;
-    margin-right: 60px;
-}
-
 #link{
     text-decoration: none;
     color: white;
@@ -117,7 +107,13 @@ body{
     text-align: center;
     font-size: 25px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
 }
+
+/* Javascript Projects Image */
 #jspr{
     border-radius: 20px;
     box-shadow: 1px 1px 20px #DFB25E;
@@ -125,6 +121,18 @@ body{
     transition: all 0.7s ease-in-out;
 }
 #jspr:hover{
+    cursor: pointer;
+    width: 380px;
+    box-shadow: 1px 1px 60px #DFB25E;
+}
+/* React Projects Image */
+#rtpr{
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px #DFB25E;
+    width: 350px;
+    transition: all 0.7s ease-in-out;
+}
+#rtpr:hover{
     cursor: pointer;
     width: 380px;
     box-shadow: 1px 1px 60px #DFB25E;
